@@ -15,7 +15,7 @@
 | Overall scope | Confirmed | User DEC-001 | 2026-10 |
 | Strict Excel compatibility | Confirmed | User DEC-002 | 2026-10 |
 | ASCII UI wireframe requirement | Confirmed | User DEC-003 | 2026-10 |
-| Formula Map / Excel result parity | Not verified | No cell-by-cell test report | 2026-10-24 |
+| Formula inventory | Extracted (8,064 cells); parity not verified | `docs/analysis/Excel_Formula_Map_P1.md` | 2026-10-24 |
 | PM final brief | Draft / not frozen | `01-产品定义/06-最终定型稿.md` | 2026-10-24 |
 | PRD | Not started | - | 2026-10-24 |
 | Development / tests / deployment | Not started | - | 2026-10-24 |
@@ -26,7 +26,7 @@ No development release, deployed site, or production verification.
 ## Open work and blockers
 | Priority | Item | Next action | Evidence |
 |---|---|---|---|
-| P0 | Excel Formula Map | Extract original Sheet/Cell formulas and dependencies | User workbook |
+| P0 | Excel Formula Map | Classify 8,064 extracted formula cells by dependency and rule; compare calculated outputs | `docs/analysis/Excel_Formula_Map_P1.md` |
 | P0 | Calculation parity cases | Compare workbook outputs, conditions and rounding | Not yet executed |
 | P1 | UI wireframes | Review proposed ASCII screens with user | `07-ASCII界面设计.md` |
 | P1 | Finalize PM brief | Resolve open questions and freeze | `05-开放问题.md` |
@@ -42,7 +42,7 @@ No development release, deployed site, or production verification.
 ## Change log (append only)
 | Date | Change | Result | Evidence |
 |---|---|---|---|
-| 2026-10-24 | Initialize requirements records from confirmed DEC-001/002/003 | Documentation prepared; calculation validation pending | User decisions |
+| 2026-10-24 | Initialize requirements records from confirmed DEC-001/002/003 | Documentation prepared; calculation validation pending | User decisions |\n| 2026-10-24 | P1 formula extraction inventory | 8,064 formula cells extracted; numerical parity remains unverified | `docs/analysis/Excel_Formula_Map_P1.md` |
 
 ## Next update
 Trigger: Formula Map verified, UI design approved, PM brief frozen, PRD milestone, code/test/deployment change.
